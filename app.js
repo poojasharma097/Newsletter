@@ -47,6 +47,6 @@ app.post("/failure", function(req,res){
     res.sendFile(__dirname + "/signup.html");
 })
 
-app.listen(process.env.PORT || 4000, function(){
-    console.log("Server is running on port 4000");
+app.listen(process.env.PORT || 0.0.0.0, function(){
+    console.log("Server is running on port 0.0.0.0");
 })
