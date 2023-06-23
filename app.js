@@ -5,6 +5,8 @@ const https = require('https')
 require('dotenv').config()
 const client = require("@mailchimp/mailchimp_marketing");
 
+const port = process.env.PORT || 4000;
+
 const app = express();
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(express.static("public"))
@@ -47,6 +49,6 @@ app.post("/failure", function(req,res){
     res.sendFile(__dirname + "/signup.html");
 })
 
-app.listen(process.env.PORT || 0.0.0.0, function(){
-    console.log("Server is running on port 0.0.0.0");
+app.listen(port, "0.0.0.0", function(){
+    console.log("Server is running.");
 })
