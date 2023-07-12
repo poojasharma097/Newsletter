@@ -14,4 +14,4 @@ This is a website in which users can sign up for the newsletter. It was made wit
 * ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
 ## Contact Me
-LinkedIn Profile: [LinkedIn](https://www.linkedin.com/in/pooja-sharma-a80458222/)
+LinkedIn Profile: [Pooja Sharma](https://www.linkedin.com/in/pooja-sharma-a80458222/)
